@@ -1,0 +1,30 @@
+{
+    "name": "ycookies/formwitcomponent",
+    "description": "",
+    "authors": [
+        {
+            "name": "YangGe",
+            "email": "3664839@qq.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\FormWitComponent\\": "app/",
+            "Modules\\FormWitComponent\\Database\\Factories\\": "database/factories/",
+            "Modules\\FormWitComponent\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\FormWitComponent\\Tests\\": "tests/"
+        }
+    }
+}

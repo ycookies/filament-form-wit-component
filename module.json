@@ -1,0 +1,33 @@
+{
+    "name": "FormWitComponent",
+    "alias": "formwitcomponent",
+    "description": {
+        "ar": "form-wit-component",
+        "en": "form-wit-component",
+        "gr": "form-wit-component",
+        "de": "form-wit-component",
+        "nl": "form-wit-component",
+        "fr": "form-wit-component",
+        "sp": "form-wit-component"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FormWitComponent\\Providers\\FormWitComponentServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "form-wit-component",
+        "en": "form-wit-component",
+        "gr": "form-wit-component",
+        "de": "form-wit-component",
+        "nl": "form-wit-component",
+        "fr": "form-wit-component",
+        "sp": "form-wit-component"
+    },
+    "color": "#a408b8",
+    "icon": "heroicon-c-archive-box-arrow-down",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0"
+}
