@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\FormWitComponent\Filament\Pages;
+namespace Ycookies\FormWitComponent\Filament\Pages;
 
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\MarkdownEditor;
@@ -11,7 +11,9 @@ use Filament\Pages\Page;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\SettingsPage;
-use \Modules\FormWitComponent\Forms\Components\WeekTimePicker;
+use \Ycookies\FormWitComponent\Forms\Components\WeekTimePicker;
+use Filament\Forms\Components\Fieldset;
+
 class FormWitComponentPage extends SettingsPage
 {
     //public static string $view = 'formwitcomponent::index';
@@ -40,6 +42,16 @@ class FormWitComponentPage extends SettingsPage
     {
         return $form
             ->schema([
+                Fieldset::make('Label')
+                    ->schema([
+                        TextInput::make('title1'),
+                        TextInput::make('title2'),
+                        TextInput::make('title3'),
+                        TextInput::make('title4'),
+                        TextInput::make('title5'),
+                        TextInput::make('title6')
+                    ])
+                    ->columns(5),
                 WeekTimePicker::make('week_time')
                     ->label(__('formwitcomponent::messages.task.week_time'))
                     ->required()

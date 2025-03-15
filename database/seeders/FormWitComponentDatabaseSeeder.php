@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\FormWitComponent\Database\Seeders;
+namespace Ycookies\FormWitComponent\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 

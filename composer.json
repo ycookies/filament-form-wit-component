@@ -21,14 +21,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\FormWitComponent\\": "app/",
-            "Modules\\FormWitComponent\\Database\\Factories\\": "database/factories/",
-            "Modules\\FormWitComponent\\Database\\Seeders\\": "database/seeders/"
+            "Ycookies\\FormWitComponent\\": "src/",
+            "Ycookies\\FormWitComponent\\Database\\Factories\\": "database/factories/",
+            "Ycookies\\FormWitComponent\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Modules\\FormWitComponent\\Tests\\": "tests/"
+            "Ycookies\\FormWitComponent\\Tests\\": "tests/"
         }
     }
 }

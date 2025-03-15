@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\FormWitComponent\Http\Controllers\FormWitComponentController;
+use Ycookies\FormWitComponent\Http\Controllers\FormWitComponentController;
 
 /*
  *--------------------------------------------------------------------------

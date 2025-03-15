@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\FormWitComponent\Forms\Components;
+namespace Ycookies\FormWitComponent\Forms\Components;
 
 use Filament\Forms\Components\Field;
 

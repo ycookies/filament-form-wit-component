@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\FormWitComponent\Providers;
+namespace Ycookies\FormWitComponent\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

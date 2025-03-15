@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\FormWitComponent\Http\Controllers;
+namespace Ycookies\FormWitComponent\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
