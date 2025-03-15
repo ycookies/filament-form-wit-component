@@ -10,11 +10,10 @@ composer require ycookies/filament-form-wit-component
 ## form compoennt week time picker
 
 ## Screenshot
-![](https://main.dcat-admin.com/images/filment-form1.jpg!large)
+![](https://main.dcat-admin.com/images/filment-form1.jpg)
 
 ## Support
-
-you can join our discord server to get support [dcat-admin](https://forum.saishiyun.net/)
+[dcat-admin](https://forum.saishiyun.net/)
 
 ## Use 
 
