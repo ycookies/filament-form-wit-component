@@ -11,7 +11,7 @@ use Filament\Pages\Page;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 use Filament\Pages\SettingsPage;
-use \Ycookies\FormWitComponent\Forms\Components\WeekTimePicker;
+use Ycookies\FormWitComponent\Forms\Components\WeekTimePicker;
 use Filament\Forms\Components\Fieldset;
 
 class FormWitComponentPage extends SettingsPage

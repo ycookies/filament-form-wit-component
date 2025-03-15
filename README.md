@@ -5,26 +5,27 @@ form-wit-component
 ## Installation
 
 ```bash
-composer require ycookies/formwitcomponent
+composer require ycookies/filament-form-wit-component
 ```
 ## form compoennt week time picker
 
+## Screenshot
+![](https://main.dcat-admin.com/images/filment-form1.jpg!large)
+
 ## Support
 
-you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
+you can join our discord server to get support [dcat-admin](https://forum.saishiyun.net/)
 
-## Docs
+## Use 
 
-you can check docs of this package on [Docs](https://docs.tomatophp.com/plugins/tomato-themes)
+```php
+use Ycookies\FormWitComponent\Forms\Components\WeekTimePicker;
 
-## Changelog
+WeekTimePicker::make('week_time')
+                    ->required()
+                    ->validationMessages([
+                        'required' => '请选择周时间段',
+                    ]),
+```
 
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Security
-
-Please see [SECURITY](SECURITY.md) for more information about security.
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
